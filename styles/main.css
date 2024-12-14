@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+    /* ? padding-block faz o padding em cima e em baixo do elemnto */
+    flex-wrap: wrap;
+    /* ? flex-wrap é usado para quebrar linhas */
+}
+
+main img {
+    object-fit: cover;
+    width: 286px;
+    height: 286px;
+}

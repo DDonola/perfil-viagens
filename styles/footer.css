@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+    font: 14px/150% var(--font-family);
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    /* ? gap dá uma espaço entre os elementos*/
+    gap: 24px;
+}
